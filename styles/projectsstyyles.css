@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    Filename:   projectsstyyles.css
+    Author:     Liam Brake (cst102)
+    Date:       2024-04-13
+    Purpose:
+*/
+
+nav {
+    background-color: #1338BE;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li:not(:last-child)::after {
+    content: "|";
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+a {
+    color: ghostwhite;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-underline: antiquewhite;
+    text-decoration: underline;
+}
